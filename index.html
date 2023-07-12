@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bina Alam Tani</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">BinaAlam<span>Tani</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-ekstra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          Tempat belanja <span>kebutuhan pertanian</span> dan
+          <span>konsultasi pertanian</span>
+        </h1>
+        <p>Website ini hanya untuk latihan semata !!</p>
+        <a href="#" class="cta">Order Sekarang</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih produk kami?</h3>
+          <p>
+            Kami menjual beberapa produk untuk menyehatkan tanaman anda, tidak
+            hanya menjual produk untuk kebutuhan pertanian saja, kami juga
+            menjual beberapa alat untuk memudahkan pekerjaan pertanian anda.
+          </p>
+          <p>
+            Kami juga melayani konsultasi bagi kalian yang mengalami masalah di
+            seputar pertanian.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+    <section id="menu" class="menu">
+      <h2><span>Salah Satu</span> Produk Kami</h2>
+      <p>
+        Gramoxone merupakan Herbisida kontak purna tumbuh berbentuk larutan
+        dalam air berwarna hijau tua, untuk mengendalikan gulma berdaun lebar,
+        sempit dan teki pada persiapan lahan budidaya jagung (TOT), padi (TOT),
+        jagung, kakao, dan kelapa sawit.
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img
+            src="img/1.jpg"
+            alt="Gramoxone"
+            class="menu-card-img"
+            height="280"
+          />
+          <h3 class="menu-card-title">- Gramoxone -</h3>
+          <p class="menu-card-price">IDR ???K</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- contact section start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Mohon maaf untuk saat ini masih dalam perbaikan [Maintenance]</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.7740722643807!2d111.92899157480454!3d-7.707376092310314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784df254e067f3%3A0x61420da91d81ade0!2sKios%20Pertanian%20Bina%20Alam%20Tani%20NGANJUK!5e0!3m2!1sen!2sid!4v1689154513952!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="no hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer start -->
+    <footer>
+      <div class="socials">
+        <a href=""><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Johan Bintang</a>. | &copy 2023</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- my javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
